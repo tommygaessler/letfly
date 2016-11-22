@@ -31,7 +31,7 @@ const handlers = {
             url: 'https://api.fullcontact.com/v3/contacts.search',
             method: 'POST',
             headers: {
-              'Authorization': 'Bearer ucnZl9VMiIc62GHC7igrFfTRucp0CIsI'
+              'Authorization': 'Bearer TRobmiOikP7ynChngjlAJRv45l5z6HWc'
             },
             json: {
               "searchQuery": itemName
@@ -47,8 +47,7 @@ const handlers = {
               request.post('http://damp-shore-14356.herokuapp.com/alexa',
               { json: {
                 name: itemName,
-                to_email: to_email,
-                message: 'This is a test message'
+                to_email: to_email
               } },
               function (error, response, body) {
                 if (!error && response.statusCode == 200) {
