@@ -22,7 +22,7 @@ const handlers = {
             url: 'https://api.fullcontact.com/v3/contacts.search',
             method: 'POST',
             headers: {
-              'Authorization': 'Bearer bC4UYy4Bc8IrUn368qMTKywgeHqRLFqo'
+              'Authorization': 'Bearer WnzqaLc5grakhSYciUB2GIC0aofsLLQM'
             },
             json: {
               "searchQuery": itemName
